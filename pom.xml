@@ -11,6 +11,10 @@
     <packaging>war</packaging>
 
     <properties>
+        <encoding.type>UTF-8</encoding.type>
+        <project.build.sourceEncoding>${encoding.type}</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>${encoding.type</project.reporting.outputEncoding>
+        <file.encoding>${encoding.type}</file.encoding>
         <spring.version>5.3.23</spring.version>
     </properties>
 
